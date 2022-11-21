@@ -1,0 +1,29 @@
+.selectedCardContainer {
+  color: white;
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .colorTagBox {
+    display: flex;
+    justify-content: space-around;
+    span {
+      width: 2rem;
+      height: 1rem;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    button {
+      font-size: 1.3rem;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 0.6rem 2rem;
+      border-radius: 0.4rem;
+    }
+  }
+}
